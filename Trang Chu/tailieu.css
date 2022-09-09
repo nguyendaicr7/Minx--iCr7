@@ -1,0 +1,52 @@
+#list-products {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none ;
+    color: red;
+}
+#list-products .item {
+    width: 290px;
+    height: 200px;
+    background:#362f2f;
+    border-radius: 10px;
+}
+
+#list-products .item .name {
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    margin-top:21px;
+    font-size: 20px;
+}
+
+#list-products .item .desc {
+    text-align: center;
+    color:gold;
+}
+#menu {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#menu .item {
+    margin:0px 25px;
+}
+
+#menu .item a {
+    color:#626A67;
+    text-decoration: none;
+}
+h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+*{
+    background-size: cover;
+}
